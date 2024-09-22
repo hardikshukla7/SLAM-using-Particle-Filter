@@ -9,7 +9,7 @@ Using the Dynamics step, we Obtain the trajectory created using the Odometry sen
 
 ![SLAM using Particle Filter](https://github.com/hardikshukla7/SLAM-using-Particle-Filter/blob/main/slam_1.png?raw=true)
 
-In our code, we map our environment using Logistic probability. The Lidar camera finds the obstacles in the Robot’s
+In my code, I map our environment using Logistic probability. The Lidar camera finds the obstacles in the Robot’s
 Environment and gives us the cells in the grid that are potentially or likely to be occupied. By comparing this data with
 the previous estimate of our environment (at the previous pose), we update our logarithmic graph, and upon multiple
 observations, if the logarithmic value corresponding to a particular cell increases a threshold value, we tell that grid point
