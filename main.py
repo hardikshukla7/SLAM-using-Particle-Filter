@@ -1,5 +1,3 @@
-# Pratik Chaudhari (pratikac@seas.upenn.edu)
-
 import click, tqdm, random
 import matplotlib.pyplot as plt
 
